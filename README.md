@@ -56,19 +56,3 @@ The models were evaluated using the following metrics:
 | **Gaussian NB** | ~82.1% | ~81.9% | ~81.3% | ~81.6% |
 | **Neural Network** | (Varies per run) | (Varies) | (Varies) | (Varies) |
 
-*Note: The Neural Network metrics shown in the notebook vary slightly with each training run.*
-
-## Requirements
-
-To run this notebook, you need the following Python libraries:
-*   pandas
-*   numpy
-*   matplotlib
-*   scikit-learn
-*   tensorflow (or keras)
-*   imblearn
-
-## Usage
-
-1.  Ensure the dataset `churn.csv` is in the correct path or update the loading path in the notebook.
-2.  Run the cells in `Final.ipynb` sequentially to perform preprocessing, training, and evaluation.
